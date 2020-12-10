@@ -12,3 +12,15 @@ $ python3 server.py
 $ python3 client.py
 ```
 > Como esse código utiliza thread, é possível rodar mais de uma instância do cliente (1 server - n clients)
+
+#### Protocolos:
+
+| Código | Valor | Significado                             |   |   |
+|--------|-------|-----------------------------------------|---|---|
+| 1      | -1    | Cliente solicita quantidade de recursos |   |   |
+| 2      | X     | Servidor informa a quantidade X de      |   |   |
+| 3      | -1    | Cliente solicita Token                  |   |   |
+| 4      | X     | Servidor fornece Token X                |   |   |
+| 4      | -1    | Recurso não disponível                  |   |   |
+| 5      | X     | Cliente devolve Token X                 |   |   |
+
