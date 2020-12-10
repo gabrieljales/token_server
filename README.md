@@ -15,12 +15,12 @@ $ python3 client.py
 
 #### Protocolos:
 
-| Código | Valor | Significado                             |   |   |
-|--------|-------|-----------------------------------------|---|---|
-| 1      | -1    | Cliente solicita quantidade de recursos |   |   |
-| 2      | X     | Servidor informa a quantidade X de      |   |   |
-| 3      | -1    | Cliente solicita Token                  |   |   |
-| 4      | X     | Servidor fornece Token X                |   |   |
-| 4      | -1    | Recurso não disponível                  |   |   |
-| 5      | X     | Cliente devolve Token X                 |   |   |
+| Código | Valor | Significado                             
+|--------|-------|-----------------------------------------|
+| 1      | -1    | Cliente solicita quantidade de recursos |
+| 2      | X     | Servidor informa a quantidade X de      |
+| 3      | -1    | Cliente solicita Token                  |
+| 4      | X     | Servidor fornece Token X                |
+| 4      | -1    | Recurso não disponível                  |
+| 5      | X     | Cliente devolve Token X                 |
 
